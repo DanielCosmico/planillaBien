@@ -3107,12 +3107,12 @@ button:disabled,
 
 #banner h1 {
 	text-emphasis-color: #1d4f85;
-	background-color:  #1d4f85;
+	background-color:  #000;
   font-size: 4em;
   font-weight: 600;
-  color: #fbda88;
-  line-height: 1em;
-  margin: 0 8em 0.5em 8em;
+  color: #fff;
+  line-height: 2em;
+  margin: 1em 8em 1em 8em;
   padding: 0;
 }
 
