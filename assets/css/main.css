@@ -3106,6 +3106,10 @@ button:disabled,
 }
 
 #banner h1 {
+	text-emphasis-color: #555;
+text-emphasis-color: blue;
+text-emphasis-color: rgba(90, 200, 160, 0.8);
+text-emphasis-color: transparent;
   font-size: 4em;
   font-weight: 600;
   color: #fbda88;
