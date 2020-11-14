@@ -3106,13 +3106,13 @@ button:disabled,
 }
 
 #banner h1 {
-	text-emphasis-color: #555;
-
+	text-emphasis-color: #1d4f85;
+	background-color:  #1d4f85;
   font-size: 4em;
   font-weight: 600;
   color: #fbda88;
   line-height: 1em;
-  margin: 0 0 0.5em 0;
+  margin: 0 8em 0.5em 8em;
   padding: 0;
 }
 
