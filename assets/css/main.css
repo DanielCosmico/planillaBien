@@ -2898,7 +2898,7 @@ button:disabled,
 
 #header {
   color: #d4e0ef;
-  cursor: default;
+  cursor: pointer;
   height: 3.25em;
   left: 0;
   line-height: 3.25em;
@@ -2907,6 +2907,7 @@ button:disabled,
   top: 4em;
   width: 100%;
   z-index: 10001;
+  font-weight: 900;
 }
 
 #header .inner {
@@ -2919,7 +2920,7 @@ button:disabled,
   display: inline-block;
   font-weight: 600;
   height: inherit;
-  left: 0;
+  left: 2%;
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -2927,6 +2928,20 @@ button:disabled,
   top: 0;
   font-size: 1em;
 }
+#header .logito {
+  color: #ffffff;
+  display: inline-block;
+  
+
+  left: 0;
+  
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  font-size: 1em;
+}
+
 
 #header a {
   -moz-transition: color 0.2s ease-in-out;
@@ -2942,6 +2957,7 @@ button:disabled,
 
 #header a:hover {
   color: #ffffff;
+  font-weight: 500;
 }
 
 #header a:last-child {
@@ -2994,10 +3010,16 @@ button:disabled,
 }
 
 /* Nav */
+#nav{
+background-color: rgba(0, 0, 0, 0.8);
+padding-inline-end:  5%;
+padding-inline-start:  5%;
+
+}
 
 @media screen and (max-width: 980px) {
   #nav {
-    display: none;
+    display: block;
   }
 }
 
@@ -3095,7 +3117,7 @@ button:disabled,
 /* Banner */
 
 #banner {
-  padding: 12em 0 10em 0;
+  padding: 12em 0 5em 0;
   background-image: url("../../images/biblioteca.jpg");
   background-size: cover;
   background-position: top;
@@ -3106,21 +3128,24 @@ button:disabled,
 }
 
 #banner h1 {
-	text-emphasis-color: #1d4f85;
-	background-color:  #000;
+	text-emphasis-color: #1d4f85a6;
+  background-color:  #1d4f85a6;
+  
   font-size: 4em;
   font-weight: 600;
   color: #fff;
   line-height: 2em;
-  margin: 1em 8em 1em 8em;
-  padding: 0;
+
+  padding: 1%;
 }
 
 #banner p {
   font-size: 2em;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 1.75em;
+  font-weight: 800;
+  color:  #0556ad;
+  background-color:  #ffffffa9;
+
+  margin-bottom: 1em;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -3131,7 +3156,7 @@ button:disabled,
 
 @media screen and (max-width: 1280px) {
   #banner {
-    padding: 10em 2em 8em 2em;
+    padding: 10em 0em 8em 0em;
   }
 }
 
@@ -3143,21 +3168,26 @@ button:disabled,
 
 @media screen and (max-width: 736px) {
   #banner {
-    padding: 8em 1.5em 6em 1.5em;
+    padding: 8em 0em 6em 0em;
   }
 
   #banner h1 {
     font-size: 2.5em;
+    margin: 1pt 0pt 1em 0pt;
   }
 
   #banner p {
-    font-size: 0.9em;
+    font-size: 1.9em;
   }
 }
 
 @media screen and (max-width: 480px) {
   #banner {
     padding: 6em 1.5em 4em 1.5em;
+  }
+  #banner h1 {
+    font-size: 2.5em;
+    margin: 1pt 0pt 1em 0pt;
   }
 }
 
